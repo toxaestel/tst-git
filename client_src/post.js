@@ -6,7 +6,7 @@ $( document ).ready( function () {
     var selectedPage = 0;
 
     Handlebars.registerPartial(     'post-preview', $( '#post-preview-template' ).html() );
-    Handlebars.registerHelper( "nav", function( count, selected, options ) {
+    Handlebars.registerHelper( 'nav', function( count, selected, options ) {
         var numbers = '';
         Array.apply( null, Array( count ) )
             .forEach(
@@ -31,10 +31,6 @@ $( document ).ready( function () {
         } ) );
     }
 
-
-
-
-
     function renderNavigation(){
         $( '.posts-container__navigation' ).html( navigationTemplate( {
             count: Math.ceil( posts.length / perPage ),
@@ -43,6 +39,3 @@ $( document ).ready( function () {
     }
 
 });
-
-
-

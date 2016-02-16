@@ -41,21 +41,6 @@
             </div>
         </div>
 
-        <!-- get post 2
-            {{posts.[2].[description]}}
-            {{{posts.[2].[description]}}}
-
-            <div>
-                <b>with: </b>
-                {{#with posts.[2]}}
-                    {{description}}
-                {{/with}}
-            </div>
-            {{{{raw-helper}}}}
-              {{bar}}
-            {{{{/raw-helper}}}}
-        -->
-
         <script type="text/x-handlebars-template" id="posts-container__list-template">
             {{#each posts}}
                 {{> post-preview class="posts-container__post" }}
