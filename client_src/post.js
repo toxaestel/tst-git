@@ -17,9 +17,9 @@ $( document ).ready( function () {
         return numbers;
     } );
 
-    render();
+    render1();
 
-    function render(){
+    function render1(){
         renderPosts();
         renderNavigation();
         subscribeHandlers();
