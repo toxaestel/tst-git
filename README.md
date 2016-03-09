@@ -1,2 +1,4 @@
 # tst-git
-test git repo for lection
+test git repo for lesson
+
+###huge update!
